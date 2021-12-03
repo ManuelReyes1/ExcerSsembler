@@ -25,5 +25,5 @@ bucle : ldr r3, [r2] , #4
     ldr r0, = var1
     bl printf
 /* Recuperamos registros y salimos */
-    pop { r4, lr }
+    pop {r4, lr}
     bx lr
