@@ -1,3 +1,9 @@
+/*Instito tecnológico de Tijuana
+* Lenguaje de interfaz
+* Autor: Rodriguez Moreno Omar Gamaliel
+* 06/12/2021
+*/
+
 .data
 var1: .asciz " La suma es %d \n"
 /*Vector en cuestión*/
