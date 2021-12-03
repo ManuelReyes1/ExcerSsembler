@@ -9,6 +9,7 @@ main:
         push    {r4, r5, r6, lr}
         mov     r4, #0
         ldr     r5, .L7
+/*ciclo for iniciado, en bne se llama a sí mismo de nuevo*/
 bfor:
         mov     r1, r4
         mov     r0, r5
