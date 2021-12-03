@@ -13,9 +13,9 @@ main:
 
 bfor:
     mov r1, r4 //r1 guarda el valor de r4
-    mov r0, =var1
+    ldr r0, =var1
     bl  printf
-    subs  r4, r4 #2 //r4 ahora vale r4 -2
+    subs  r4, r4, #2 //r4 ahora vale r4 -2
     bne bfor
     mov r0, r4
     pop {r4, lr}
