@@ -1,3 +1,8 @@
+/*Instito tecnológico de Tijuana
+* Lenguaje de interfaz
+* Autor: Rodriguez Moreno Omar Gamaliel
+* 06/12/2021
+*/
        .global main
 
 main:
@@ -22,3 +27,10 @@ bwhile:
         bne     bwhile
         mov     r0, #0
         pop     {r4, r5, r6, pc}
+.L8:
+        .align  2
+.L7:
+        .word   .LC0
+        .section        .rodata.str1.1
+.LC0:
+        .ascii  " %d\012 \000"
