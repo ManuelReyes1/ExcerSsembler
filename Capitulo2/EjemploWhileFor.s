@@ -10,15 +10,15 @@ var1:  .asciz "%d\012 \000"
 
 main:
         push    {r4, lr}
-        mov     r4, #0
+        mov     r4, #0 //r4 toma 0 de valor
 
 bfor:
-        mov     r1, r4
+        mov     r1, r4 //r4 se lo damos a r1
         ldr     r0, =var1
-        add     r4, r4, #1
+        add     r4, r4, #1 //actualizamos el valor de r4 por r4 + 1
         bl      printf
-        cmp     r4, #6
-        bne     bfor
+        cmp     r4, #6 //comparación
+        bne     bfor //volvemos al for
         pop     {r4, pc}
         pop     {r4, lr}        
         bx      lr
