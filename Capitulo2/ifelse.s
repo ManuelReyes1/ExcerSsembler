@@ -16,11 +16,11 @@ main:
         cmp r1, r2
 sisI:
       /*r1 toma valor de 1*/
-        r1, #1
+        mov r1, #1
         b final
 sino:
       /*r1 toma valor de 0*/
-        r1, #0
+        mov r1, #0
 final:
       /*Se imprime el valor que haya tomado*/
       bx lr
