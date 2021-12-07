@@ -1,7 +1,7 @@
 /*Instito tecnológico de Tijuana
 * Lenguaje de interfaz
 * Autor: Rodriguez Moreno Omar Gamaliel
-* 06/12/2021
+* 08/12/2021
 */
 #include <stdio.h>
 
