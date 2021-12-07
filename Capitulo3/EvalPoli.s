@@ -58,7 +58,7 @@ main: push  {r4,lr}
   .equ  param5, 4*1 
   /*función*/
 poly3:  push  {r4}
-  ld  r4, [sp, #param5] 
+  ldr  r4, [sp, #param5] 
   smlabb  r3, r2, r4, r3 //c*x+d
   smulbb  r2, r4, r4 //x*x
   smlabb  r3, r1, r2, r3 //b*(x*x) + (c*x + d)
