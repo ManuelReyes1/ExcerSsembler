@@ -5,20 +5,21 @@
 */
 #include <stdio.h>
 
+int seed;
+inline short myrand(void){
+  seed = seed*1103515245+12345;
+  return seed>>16 & 0x7fff;
+}
+inline void mysrand(int x){
+  seed = x;
+}
 void main(void)
 {
   int i;
-  mysrand (42); //método random
+  mysrand(42); //método random
   for ( i = 0; i <5; i ++ )
   {
-    printf ( " %d\n " , myrand());
+    printf ( " %d\n ", myrand());
   }
 }
-static int seed;
-short myrand(void){
-  seed = seed *1103515245 + 12345;
-  return seed>>16 & 0x7fff ;
-}
-void mysrand(int x){
-  seed = x;
-}
+
