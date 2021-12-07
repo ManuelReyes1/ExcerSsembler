@@ -4,13 +4,13 @@ var1: .asciz  "%d\ n"
 
 .global main
 main: push  {r4,lr}
-  mov r4, #0
+  mov r4, #0 //r4 en 0 para hacer de contador en el bucle
 bucle:  mov r0, r4
-  bl  fibo
+  bl  fibo //llamamos la funcion
   mov r1, r0
   ldr r0, =var1
   bl  printf 
-  add r4, r4, #1
+  add r4, r4, #1 //incrementa el contador
   cmp r4, #10 
   bne bucle 
   pop {r4, lr}
@@ -21,12 +21,12 @@ bucle:  mov r0, r4
   .equ  length, 4+local3
 fibo: push  {lr} 
   sub sp, #length 
-  cmp r0, #2 
+  cmp r0, #2 //if (n<2)
   movlo r0, #1 
   blo fib1
-  sub r0, #1 
+  sub r0, #1 //else
   str r0, [sp, #local1] 
-  bl  fibo 
+  bl  fibo //restamos uno a n y vamos de nuevo a la secuencia fibonacci
   str r0, [sp, #local2]
   ldr r0, [sp, #local1] 
   sub r0, #1
