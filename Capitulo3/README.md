@@ -4,6 +4,7 @@
 > (cp ArchivoParaCorrer.s Ejemplo.s)
 > Si también requiere de un c auxiliar, coloquele el nombre de Ejemplo.c
 > Después solo use los comandos
+> - (Recuerde que si ocure algún problema al ejecutar el makefile, solo edite el archivo y cambie los «Tabs» de giithub por los del editor nano)
  - 🤖 make     -Crea el archivo ejecutable 
  - 🤖 Run      -Ejecuta el programa
  - 🤖 dbgRun   -Ejecuta el programa con el debuger
