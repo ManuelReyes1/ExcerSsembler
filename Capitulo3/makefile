@@ -5,7 +5,8 @@ Run:
 gdbRun:
         gdb Ejemplo
 CAuxiliar:
-  as -o Ejemplo.o Ejemplo.s
-  gcc -o Ejemplo Ejemplo.c Ejemplo.o
+        as -o Ejemplo.o Ejemplo.s
+        gcc -o Ejemplo Ejemplo.c Ejemplo.o
 Limpiar:
         rm Ejemplo
+        rm Ejemplo.o
