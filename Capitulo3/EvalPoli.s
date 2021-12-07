@@ -37,9 +37,9 @@ main: push  {r4,lr}
   push  {r4}
   bl  poly3
   add sp, #4 
-  movr1, r0
-  ldrr0, =var1
-  blprintf //imprimimos segunda llamada ( 1,-1,1,-1,8)
+  mov r1, r0
+  ldr r0, =var1
+  bl  printf //imprimimos segunda llamada ( 1,-1,1,-1,8)
   
   /*hacemos un tercer llamado al método*/
   mov r0, #2
