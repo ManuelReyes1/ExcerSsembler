@@ -2,7 +2,7 @@ Ejemplo:
         g++ Ejemplo.s -g -o Ejemplo
 Run: 
         ./Ejemplo
-gdbRun:
+        gdbRun:
         gdb Ejemplo
 CAuxiliar:
         as -o Ejemplo.o Ejemplo.s
