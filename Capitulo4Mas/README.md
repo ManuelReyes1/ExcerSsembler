@@ -4,9 +4,10 @@
 > (cp ArchivoParaCorrer.s Ejemplo.s)
 > Si también requiere de un c auxiliar, coloquele el nombre de Ejemplo.c
 > Después solo use los comandos
-> - (Recuerde que si ocure algún problema al ejecutar el makefile, solo edite el archivo y cambie los «Tabs» de giithub por los del editor nano)
+> (Recuerde que si ocure algún problema al ejecutar el makefile, solo edite el archivo y cambie los «Tabs» de giithub por los del editor nano)
  - 🤖 make      -Crea el archivo ejecutable 
  - 🤖 Run       -Ejecuta el programa
  - 🤖 dbgRun    -Ejecuta el programa con el debuger
  - 🤖 Limpiar   -Elimina el ejecutable
  - 🤖 BareMetal -Crea el ejecutable para código en Bare Metal
+![](https://github.com/Barny-Claus/ExcerSsembler/blob/main/Capitulo4Mas/imagen%20de%20foquitos.png)
