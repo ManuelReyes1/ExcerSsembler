@@ -2,6 +2,7 @@
 * Lenguaje de interfaz
 * Autor: Rodriguez Moreno Omar Gamaliel
 * 10/12/2021
+* Encender un led rojo después de 4 segundos
 */
 .include " inter.inc "
 .text
@@ -15,8 +16,8 @@ mov r0, # 0b11010011
 msr cpsr_c, r0
 mov sp, # 0x8000000
 
+/*Asignar el sentido al pin GPIO9*/
 ldr r0, = GPBASE
-
 mov r1, # 0b00001000000000000000000000000000
 str r1, [ r0, # GPFSEL0 ]
 
