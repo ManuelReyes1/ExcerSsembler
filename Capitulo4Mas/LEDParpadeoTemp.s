@@ -14,7 +14,7 @@
 .text
   ldr r0, =GPBASE
   mov r1, #0b00000000000000000001000000000000
-  str r1, [r0, #GPFSEL0]
+  str r1, [r0, #GPFSEL0] //Configurar GPIO 4
   mov r1, #0b00000000000000000000000000010000
   ldr r2, =STBASE
 
