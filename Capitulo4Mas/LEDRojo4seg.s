@@ -36,7 +36,7 @@ bucle : b bucle
 irq_handler :
 push { r0, r1 }
 ldr r0, = GPBASE
-/* guia bits 10987654321098765432109876543210 */
+
 mov r1, # 0b00000000000000000000001000000000
 
 str r1, [ r0, # GPSET0 ]
