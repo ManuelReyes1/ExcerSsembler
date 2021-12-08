@@ -2,6 +2,7 @@
 * Lenguaje de interfaz
 * Autor: Rodriguez Moreno Omar Gamaliel
 * 10/12/2021
+* 4.6 esbn6.s
 */
   .set  GPBASE, 0x20200000
   .set  GPFSEL0,  0x00
