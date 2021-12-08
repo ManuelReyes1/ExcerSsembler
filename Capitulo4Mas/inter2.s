@@ -2,7 +2,7 @@
 * Lenguaje de interfaz
 * Autor: Rodriguez Moreno Omar Gamaliel
 * 10/12/2021
-* Encender un led rojo después de 4 segundos
+* Parpadeo de todos los leds
 */
   .include "inter.inc"
 .text
