@@ -10,4 +10,5 @@
  - 🤖 dbgRun    -Ejecuta el programa con el debuger
  - 🤖 Limpiar   -Elimina el ejecutable
  - 🤖 BareMetal -Crea el ejecutable para código en Bare Metal
+ 
 ![](https://github.com/Barny-Claus/ExcerSsembler/blob/main/Capitulo4Mas/imagen%20de%20foquitos.png)
